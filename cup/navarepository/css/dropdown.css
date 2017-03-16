@@ -1,0 +1,260 @@
+#leftside{
+		    float: left;
+   margin: 10px;
+   padding: 10px;
+   width: 200px;
+   height: 10px; 
+ }
+		 #middle{	
+					background-color:#99ceff;
+					text-align: center;
+					
+					margin: 10px;
+					padding: 10px;										
+				    width:1000px;
+					height:100px;
+					border-radius: 3px;
+					-moz-border-radius: 3px;
+					-webkit-border-radius: 3px;
+					box-shadow: #A1BFD6 9px 9px 9px;
+					display: -webkit-flex;
+					display: flex;
+			}
+		 	 #result{	
+					
+					margin: 10px;
+					padding: 10px;							
+				    width:1000px;
+					height:1000px;
+					border-radius: 3px;
+					background-color: #e6e6ff;
+					-moz-border-radius: 3px;
+					-webkit-border-radius: 3px;
+					box-shadow: #A1BFD6 9px 9px 9px;
+					display: -webkit-flex;
+					display: flex;
+			}
+			#cgpa{
+			float: left;}			
+      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+      body {
+	  overflow-y: scroll;
+
+}
+#skill{
+padding-left:20px;
+float:left;}
+
+.dropdown {
+
+padding-left:30px;
+ float :left;
+  transform: translateY(-0%);
+}
+
+a {
+  color: #fff;
+}
+
+.dropdown dd,
+.dropdown dt {
+  margin: 0px;
+  padding: 0px;
+}
+
+.dropdown ul {
+  margin: -1px 0 0 0;
+}
+
+.dropdown dd {
+  position: absolute;
+}
+
+.dropdown a,
+.dropdown a:visited {
+  color: #fff;
+  text-decoration: none;
+  outline: none;
+  font-size: 20px;
+}
+
+.dropdown dt a {
+  background-color: #4F6877;
+  display: block;
+  padding: 8px 20px 5px 10px;
+  min-height: 25px;
+  line-height: 24px;
+  overflow: hidden;
+  border: 0;
+  width: 320px;
+  
+}
+
+.dropdown dt a span,
+.multiSel span {
+  cursor: pointer;
+  display: inline-block;
+  padding-left:20px;
+  width: 320px;
+  padding: 0 3px 2px 0;
+}
+
+.dropdown dd ul {
+  background-color: #4F6877;
+  text-align :left;
+  font-size:7;
+  border: 0;
+  color: #fff;
+  display: none;
+  left: 0px;
+  padding: 15px 15px 2px 5px;
+  position: absolute;
+  top: 2px;
+  width: 320px;
+  list-style: none;
+  
+  height: 250px;
+  overflow: auto;
+}
+
+.dropdown span.value {
+  display: none;
+}
+
+.dropdown dd ul li a {
+  padding: 5px;
+  display: block;
+}
+
+.dropdown dd ul li a:hover {
+  background-color: #fff;
+}
+inputs:-webkit-input-placeholder {
+    color: #b5b5b5;
+}
+
+inputs-moz-placeholder {
+    color: #b5b5b5;
+}
+
+.inputs {
+    background: #f5f5f5;
+    font-size: 0.8rem;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    padding: 13px 10px;
+    width: 100px;
+    margin-bottom: 20px;
+    box-shadow: inset 0 2px 3px rgba( 0, 0, 0, 0.1 );
+    clear: both;
+}
+
+.inputs:focus {
+    background: #fff;
+    box-shadow: 0 0 0 3px #66b3ff, inset 0 2px 3px rgba( 0, 0, 0, 0.2 ), 0px 5px 5px rgba( 0, 0, 0, 0.15 );
+    outline: none;
+}
+.btn {
+  display: inline-block;
+  background: #e2e2e2;
+  border: 0;
+  line-height: 2.5em;
+  padding: 0 0 0 1em;
+  margin-bottom: 1em;
+  outline: none;
+  height: 35px;
+  margin-top: 15px;
+  text-decoration: none;
+  color: #666;
+}
+.btn .arrow {
+  display: inline-block;
+  line-height: 2.5em;
+  text-align: center;
+  background: #333;
+  color: white;
+  font-size: 1em;
+  width: 2.5em;
+  -webkit-transition: margin 200ms;
+  transition: margin 200ms;
+  margin-left: .75em;
+}
+.btn:hover {
+  background: white;
+}
+.btn:hover .arrow {
+  margin-left: 1.25em;
+  background-color: #262626;
+}
+.btn:active {
+  background: #ccc;
+}
+.btn:active .arrow {
+  margin-left: 1.5em;
+}
+ /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+      .glyphicon { margin-right:5px; }
+.thumbnail
+{
+    margin-bottom: 20px;
+    padding: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+	width: 80%;
+	
+}
+
+
+.item.list-group-item
+{
+    float: none;
+    width: 80%;
+	height: 30%;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.item.list-group-item:nth-of-type(odd):hover,.item.list-group-item:hover
+{
+    background: #428bca;
+}
+
+.item.list-group-item .list-group-image
+{
+    margin-right: 10px;
+	width : 30%;
+	height : 20%;
+}
+.item.list-group-item .thumbnail
+{
+    margin-bottom: 0px;
+}
+.item.list-group-item .caption
+{
+    padding: 9px 9px 0px 9px;
+}
+.item.list-group-item:nth-of-type(odd)
+{
+    background: #eeeeee;
+}
+
+.item.list-group-item:before, .item.list-group-item:after
+{
+    display: table;
+    content: " ";
+}
+
+.item.list-group-item img
+{
+    float: left;
+}
+.item.list-group-item:after
+{
+    clear: both;
+}
+.list-group-item-text
+{
+    margin: 0 0 11px;
+}
